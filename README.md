@@ -9,13 +9,8 @@ chatbot/
 ├── frontend/          # React.js application
 │   ├── src/
 │   |__ index.html   
-│   │
-│   │    
-│   │   
 │   ├── public/
 │   └── package.json
-|   
-│
 └── backend/           # FastAPI application
     ├── main.py
     ├── requirements.txt
