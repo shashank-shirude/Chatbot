@@ -46,8 +46,8 @@ The backend will be running at **http://localhost:8000**
 ```bash
 cd frontend
 
-# Install dependencies (first time only - already done)
-# npm install
+# Install dependencies (first time only - if already not done)
+npm install
 
 # Start the React app
 npm start
@@ -55,6 +55,15 @@ npm start
 
 If you get error or command not found: npm, 
 Follow steps to install npm on your system at **https://nodejs.org/en
+
+If you see any vulnerabilities, run:
+
+```bash
+npm audit fix --force
+
+#followed by
+npm run dev
+```
 
 The frontend will be running at **http://localhost:3000**
 
