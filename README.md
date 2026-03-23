@@ -8,12 +8,13 @@ A full-stack chatbot application with a React frontend and FastAPI backend.
 chatbot/
 ├── frontend/          # React.js application
 │   ├── src/
-│   │   ├── Chatbot.js
-│   │   ├── Chatbot.css
-│   │   ├── App.js
-│   │   └── index.js
+│   |__ index.html   
+│   │
+│   │    
+│   │   
 │   ├── public/
 │   └── package.json
+|   
 │
 └── backend/           # FastAPI application
     ├── main.py
